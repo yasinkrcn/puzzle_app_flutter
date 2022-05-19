@@ -22,7 +22,7 @@ class _BoardState extends State<Board> {
     super.initState();
     numbers.shuffle();
   }
-
+ ///1*1 and 2*2 and 3*3 matris 
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
